@@ -8,8 +8,8 @@ export const TodoForm = ({addTodo}) => {
 
         if(value){
             addTodo(value)
-
             setValue('')
+            
         }
     }
 

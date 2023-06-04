@@ -56,6 +56,8 @@ h1 {
   border: none;
   padding: 0.55rem;
   cursor: pointer;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   
 }
 
@@ -78,4 +80,13 @@ h1 {
 .completed {
   color: #c5aeff;
   text-decoration: line-through;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.error-message {
+  margin: 0 0 10px 0;
 }
